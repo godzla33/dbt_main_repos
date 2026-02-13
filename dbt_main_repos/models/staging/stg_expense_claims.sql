@@ -1,4 +1,5 @@
 
+{{ config(materialized='table' )}}
 SELECT
 claim_id,
 employee_id,
